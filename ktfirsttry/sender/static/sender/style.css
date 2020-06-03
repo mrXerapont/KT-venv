@@ -1,0 +1,28 @@
+header h1{
+	font-size: 30pt;
+	text-transform: uppercase;
+	text-align: center;	
+	
+}
+nav {
+	font-size: 16pt;
+	width: 150 px;
+	float: left;	
+}
+nav a {
+	display: block;
+	margin: 10px 0px;
+}
+section {
+	ont-size: 16pt;
+	margin-left: 170px;
+	
+	
+}
+
+section > table {width: 100%; border-collapse: collapse; table-layout: auto;}
+section > table  thead  tr {color: #ffffff; font-weight: bold; background: #00bf80;}
+section > 	table thead tr td {border: 1px solid #01ab73;}
+section > 	table tbody tr td {border: 1px solid #e8e9eb;}
+section > 	table tbody tr:nth-child(2n) {background: #f4f4f4;}
+section > 	table tbody tr:hover {background: #ebffe8;}

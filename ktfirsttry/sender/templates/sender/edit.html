@@ -1,0 +1,14 @@
+{% extends "layout/basic.html" %}
+
+{% block title %}Редактировать задание{% endblock %}
+{% block header%} Редактировать задание {%endblock%}
+{% block content%}
+
+<form id="myForm" method="POST" class="post-form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Сохранить изменения</button>        
+    </form>
+    
+{% endblock %}
+

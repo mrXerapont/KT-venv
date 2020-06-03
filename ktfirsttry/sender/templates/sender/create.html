@@ -1,0 +1,29 @@
+{% extends "layout/basic.html" %}
+{% block title %}Добавить новое задание{% endblock %}
+    {% block header %}Добавить новое задание{% endblock %}
+{% block content%}
+		<form method="post" class="post-form">
+		<div class="form-group">
+			{% csrf_token %}
+			{{ form.as_p }}
+		</div>
+		<!--		
+			<tr><th>Описание</th><td><input type="text" name="description" required /></td></tr>
+			<tr><th>E-mail получателя</th><td><input type="email" name="mailto" required /></td></tr>
+			<tr><th>Текст оповещения</th><td><input type="text-area" name="text" required /></td></tr>
+			<tr><th>Дата\время</th><td><input type="datetime-local" name="dtime" required /></td></tr>
+			
+			<tr><th>Повтор</th><td>
+				<select>				
+					<option value="1">Никогда</option>
+					<option value="2">Ежедневно</option>
+					<option value="3">Еженедельно</option>
+					<option value="4">Ежемесячно</option>			
+				<select>
+			</td></tr>
+			
+			-->
+			<input type="submit" value="Добавить">
+		</form>	
+{% endblock %}
+
