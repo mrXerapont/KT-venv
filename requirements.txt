@@ -9,7 +9,7 @@ Django==3.0.6
 django-bootstrap==0.2.4
 django-bootstrap4==1.1.1
 django-celery==3.3.1
-django-celery-results==1.2.1
+django-celery-results==2.4.0
 django-compat==1.0.15
 django-jquery==3.1.0
 djangorestframework==3.11.0
